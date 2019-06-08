@@ -156,3 +156,66 @@ const iconsArray = [
   treeIcon,
   umbrellaIcon
 ];
+
+const cardsArray = [
+  cardImg1,
+  cardImg2,
+  cardImg3,
+  cardImg4,
+  cardImg5,
+  cardImg6,
+  cardImg7,
+  cardImg8,
+  cardImg9,
+  cardImg10,
+  cardImg11,
+  cardImg12,
+  cardImg13,
+  cardImg14,
+  cardImg15,
+  cardImg16,
+  cardImg17,
+  cardImg18,
+  cardImg19,
+  cardImg20,
+  cardImg21,
+  cardImg22,
+  cardImg23,
+  cardImg24,
+  cardImg25,
+  cardImg26,
+  cardImg27,
+  cardImg28,
+  cardImg29,
+  cardImg30,
+  cardImg31,
+  cardImg32,
+  cardImg33,
+  cardImg34,
+  cardImg35,
+  cardImg36,
+  cardImg37,
+  cardImg38,
+  cardImg39,
+  cardImg40,
+  cardImg41,
+  cardImg42,
+  cardImg43,
+  cardImg44,
+  cardImg45,
+  cardImg46,
+  cardImg47,
+  cardImg48,
+  cardImg49,
+  cardImg50
+];
+
+const loadImages = (incons) =>{
+
+  if(icons !== null){
+    for(i = 0; i < icons.length; i++){
+      let setup = Math.floor(Math.random() * 25);
+      cardsArray.splice(i, 1, icons[setup]);
+    }
+  }
+}
